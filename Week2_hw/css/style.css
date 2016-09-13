@@ -1,0 +1,200 @@
+
+body{
+	padding: 10px;
+}
+.header-container {
+  margin: auto;
+  text-align: center;
+  background-color: white; 
+  color: #4A90E2;
+  margin-bottom: 20px;
+}
+.header-container h1 {
+  margin-bottom: -10px;
+}
+
+.header-container img{
+  text-align: right;
+}
+header #aya{
+  float: right;
+}
+
+.header-container nav ul {
+  padding: 0;
+}
+.header-container nav ul li {
+  /*float: left;*/
+  display: inline-block;
+  margin: 0 20px;       
+}
+.header-container nav ul li a  {
+  color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.header-container nav ul li a:hover {
+	color: red;
+  background-color: blue;
+  transition: background-color 5s;
+}
+
+.header-container nav ul li a:active {
+  color: blue;
+}
+
+.gambar img{
+  max-width: 300px;
+}
+
+@media screen and (min-width: 35.5em) {
+	/* small >568*/
+	.caption- {
+		font-size :0.8em;
+    text-align: left;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	/* tablet >768*/
+}
+
+@media screen and (min-width: 64em) {
+	/* screen >1024 */
+}
+
+@media screen and (min-width: 80em) {
+	/* widescreen*/
+	.about-container{
+		width: 1024px;
+		margin: auto;
+	}
+  #gallery-container{
+    width: 1024px;
+    margin: auto;
+  }
+} 
+
+.header-content {
+  margin-top: 80px;
+}
+
+#gallery-container img {
+  margin-top: 5px;
+}
+
+
+#Fakegoogle {
+  margin: auto; 
+  text-align: center;
+}
+#form{
+  text-align: center;
+}
+
+#form input{
+  text-align: center;
+  margin-bottom: 40px;
+  width: 50%;
+  height: 40px;
+
+}
+
+.image-container {
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #D8D8D8;
+  border-radius: 2px;
+}
+
+
+#gallery-container {
+  margin: auto;
+}
+
+p {
+  text-align: left;
+}
+.caption-container {
+  text-align: left;
+  font-size: 0.8em;
+  height: 40px;
+  padding: 0px;
+}
+
+.caption-container p{
+  padding: 0px;
+  margin: 0px;
+  color: #787878;
+}
+
+/*p.caption:before{
+    color: #ccc;
+    content: open-quote;
+    font-size: 6em;
+    font-family: Georgia, "Times New Roman", Serif;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+}
+*/
+
+#Headline p:first-child{
+	color: red;
+}
+
+.about h1{
+	font-size: 1em;
+	font-family: "Open Sans";
+	font-style:italic; 
+	color: #539CF1;
+}
+
+.about h2{
+	font-size: 3em;
+	color: #539CF1;
+}
+
+.about p{
+	text-align: left;
+	float:left;
+	width: 49%;
+}
+.about p.right-par{
+	float: right;
+	
+}
+
+#favhastags h2{
+  font-size: 3em;
+  color: #539CF1;
+}
+
+.footer-container {
+  background-color: #4A90E2;
+  color: #eeeeee;
+  margin-top: 100px;
+}
+.footer-content {
+  margin: auto;
+}
+.social-media-container {
+  text-align: center;
+}
+.social-media-container ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+.social-media-container ul li {
+  float: left;
+  margin: 0 10px;
+}
+.social-media-container ul li img {
+  max-width: 50px;
+}
