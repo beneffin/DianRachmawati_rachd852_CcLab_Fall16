@@ -1,6 +1,6 @@
 //Constants:
 const int ledPin = 3;     //pin 3 has PWM funtion
-const int sensorPin = A0; //pin A0 to read analog input
+const int sensorPin = A1; //pin A0 to read analog input
 
 //Variables:
 int value; //save analog value
